@@ -1,4 +1,4 @@
-![Banner](https://github.com/Masroor73/Masroor73/blob/main/Banner.png?raw=true)
+![Banner]()
 
 <h2 align="center">Hi there 👋, I’m <strong>Mia Masroor Ahamed</strong></h2>
 
