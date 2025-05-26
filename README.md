@@ -21,7 +21,7 @@
 
 ### 💻 Tech Stack
 `HTML` `CSS` `JavaScript` `Python` `SQL` `C#` `C++` `Java`  
-Frameworks: `React`, `Node.js`, `Supabase`, `.NET`, `WordPress`, `Zoho CRM` 
+Frameworks: `React`, `Node.js`, `Supabase`, `.NET`, `WordPress`, `Zoho CRM`   
 Tools: `VSCode`, `MySQL Workbench`, `Git`, `Zoho One`
 
 ---
