@@ -37,20 +37,32 @@
 
 ---
 
-### 🏆 GitHub Achievements
-[![trophy](https://github-profile-trophy.vercel.app/?username=Masroor73&theme=radical&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
 ### 📊 GitHub Stats
-![Mia's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Masroor73&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Masroor73&layout=compact&theme=radical)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Masroor73&theme=radical)
+
+<div align="center">
+
+<!-- Top full-width GitHub streak box with individual outline -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Masroor73&theme=radical&hide_border=false&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" width="800"/>
+
+<!-- Spacer to visually match internal padding -->
+<div style="margin: 16px 0;"></div>
+
+<!-- Two bottom boxes with outlines and equal dimensions -->
+<table width="800">
+<tr>
+<td width="50%" align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Masroor73&count_private=true&show_icons=true&theme=radical&hide_title=true&hide_border=false&border_radius=10" width="390"/>
+</td>
+<td width="50%" align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Masroor73&layout=compact&theme=radical&hide_title=true&hide_border=false&border_radius=10" width="390"/>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 ### 📫 Let’s Connect!
 - 🌐 [LinkedIn](https://www.linkedin.com/in/mia-ahamed-a07876184/)
 - 💻 [GitHub](https://github.com/Masroor73)
-
----
