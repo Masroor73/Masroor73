@@ -11,22 +11,41 @@
 
 ### 🔭 What I’m Working On
 - Building full-stack apps with **React, Node.js, Supabase**
-- Improving SEO & web performance at **ABM College**
+- Enhancing SEO & web performance at **ABM College**
 - Learning **.NET**, **C#**, and **cross-platform systems**
+- Exploring the foundations of **Machine Learning** & **AI**
 
 ---
 
 ### 🌱 Currently Leveling Up
 - Advanced **Database Optimization** (MySQL, SQL Server)
-- **ASP.NET Core**, **C# for Enterprise Applications**
-- CI/CD workflows and modern **DevOps practices**
+- **ASP.NET Core** & **C#** for Enterprise Applications
+- **CI/CD** workflows & modern **DevOps** practices
+- **AI/ML Engineering**: Model Design, Data Pipelines, Deployment
 
 ---
 
 ### 💻 Tech Stack
-`HTML` `CSS` `JavaScript` `Python` `SQL` `C#` `C++` `Java`  
-**Frameworks:** `React`, `Node.js`, `Supabase`, `.NET`, `WordPress`, `Zoho CRM`  
-**Tools:** `VSCode`, `MySQL Workbench`, `Git`, `Zoho One`
+
+#### 🧠 Programming Languages
+`HTML` `CSS` `JavaScript` `TypeScript` `Python` `SQL`  
+`C#` `C++` `Java` `Rust`
+
+#### ⚛️ Frameworks & Libraries
+`React` `Node.js` `Supabase` `.NET` `Next.js` `Tailwind`  
+`WordPress` `Zoho CRM`
+
+#### 🤖 AI & Data Science
+`Pandas` `NumPy` `Scikit-learn` `TensorFlow` `Keras`  
+`Jupyter` `R` `MATLAB` *(learning)*
+
+#### 🛠️ Developer Tools & IDEs
+`VSCode` `Visual Studio 2022` `Git` `GitHub`  
+`MySQL Workbench` `Postman` `Firebase` `Zoho One`
+
+#### ☁️ Platforms & DevOps
+`Vercel` `Netlify` `Render` `GitHub Actions` *(exploring)*  
+`Docker` *(learning)* `Azure ML` *(exploring)*
 
 ---
 
@@ -44,7 +63,7 @@
 <!-- Top full-width GitHub streak box with individual outline -->
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Masroor73&theme=radical&hide_border=false&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" width="800"/>
 
-<!-- Spacer to visually match internal padding -->
+<!-- Spacer -->
 <div style="margin: 16px 0;"></div>
 
 <!-- Two bottom boxes with outlines and equal dimensions -->
