@@ -60,14 +60,3 @@ My engineering philosophy centers on **intentional design**, ensuring every line
 >
 > * Optimized high-traffic infrastructure driving **30% faster page loads**.
 > * Architected technical SEO strategies using JSON-LD schema and asset compression pipelines.
-
----
-
-### 📊 **GitHub Analytics**
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Masroor73&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Masroor73&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Masroor73&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" />
-</div>
