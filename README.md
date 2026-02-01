@@ -1,87 +1,73 @@
-![Banner](https://github.com/Masroor73/Masroor73/blob/main/GitHub%20Banner.png?raw=true)
-
-<h2 align="center">Hi there 👋, I’m <strong>Mia Masroor Ahamed</strong></h2>
+![Banner](./Geometric-Banner.png) 
+<h1 align="center">Hi, I’m Mia Masroor Ahamed</h1>
+<h3 align="center">Full-Stack Software Developer | Distributed Systems & AI Integration</h3>
 
 <p align="center">
-🎓 <strong>Software Development student @ SAIT</strong> • 🧠 Clean Code Enthusiast & UX-focused Developer<br>
-💼 <strong>SEO & Web Dev Assistant @ ABM College</strong> • 📍 Calgary, Canada
+  <em>Architecting scalable, cloud-first solutions to solve real-world operational friction.</em>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mia-ahamed-a07876184/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:wasif4930@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" />
+  </a>
 </p>
 
 ---
 
-### 🔭 What I’m Working On
-- Building full-stack apps with **React, Node.js, Supabase**
-- Enhancing SEO & web performance at **ABM College**
-- Learning **.NET**, **C#**, and **cross-platform systems**
-- Exploring the foundations of **Machine Learning** & **AI**
+
+### **About Me**
+I am an **Agile Technical Lead** and **Software Architect** currently spearheading the digital transformation of a high-volume Calgary business (**Damascus Fine Mediterranean Foods**).
+
+My engineering philosophy centers on **intentional design**, ensuring every line of code serves a purpose, whether it's strict financial compliance engines in **.NET 8**, high-performance mobile frontends in **React Native**, or multimodal AI integrations with **Google Gemini**.
+
+* **Currently Leading:** **V.A.K (Valence, Axiom, Kairos)**, a vertical workforce management OS built on a distributed microservices architecture.
+* **Professional Experience:** Web Developer & SEO Specialist at **ABM College** (Driven 30%+ Core Web Vitals improvement).
+* **Core Focus:** Distributed Systems, Polyglot Monorepos, and Applied AI.
 
 ---
 
-### 🌱 Currently Leveling Up
-- Advanced **Database Optimization** (MySQL, SQL Server)
-- **ASP.NET Core** & **C#** for Enterprise Applications
-- **CI/CD** workflows & modern **DevOps** practices
-- **AI/ML Engineering**: Model Design, Data Pipelines, Deployment
+### **Technical Skills**
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript (ES6+), C#, Python, SQL (T-SQL, PL/pgSQL) |
+| **Frameworks** | React, React Native (Expo), Next.js, Node.js, .NET 8 |
+| **Cloud & Ops** | Supabase, Azure Functions, Docker, CI/CD (GitHub Actions) |
+| **Databases** | PostgreSQL (RLS), SQL Server, CosmosDB, MongoDB |
+| **Architecture** | Microservices, Monorepo (Turborepo), System Design (C4), Applied AI/ML |
+| **Ecosystem** | Zod, Orval, OpenAPI (Swagger), Figma, Git Flow |
 
 ---
 
-### 💻 Tech Stack
+### **Featured Work**
 
-#### 🧠 Programming Languages
-`HTML` `CSS` `JavaScript` `TypeScript` `Python` `SQL`  
-`C#` `C++` `Java` `Rust`
+#### **[V.A.K (Valence, Axiom, Kairos)](https://github.com/Masroor73/vak-monorepo)**
+> *Tech Lead & Architect (Capstone Contract)*
+>
+> A vertical **Workforce Management System (WMS)** for the hospitality industry.
+> * **Architecture:** Hybrid Serverless Microservices (Polyglot Monorepo).
+> * **Stack:** React Native (Mobile), React (Web), Node.js (AI Service), .NET 8 (Compliance Engine).
+> * **Highlights:**
+>     * **8/44 Compliance Engine:** Isolated .NET microservice for Alberta labor law calculations.
+>     * **AI Integration:** Google Gemini Edge Functions for waste analytics.
+>     * **Security:** Row Level Security (RLS) via Supabase.
 
-#### ⚛️ Frameworks & Libraries
-`React` `Node.js` `Supabase` `.NET` `Next.js` `Tailwind`  
-`WordPress` `Zoho CRM`
-
-#### 🤖 AI & Data Science
-`Pandas` `NumPy` `Scikit-learn` `TensorFlow` `Keras`  
-`Jupyter` `R` `MATLAB` *(learning)*
-
-#### 🛠️ Developer Tools & IDEs
-`VSCode` `Visual Studio 2022` `Git` `GitHub`  
-`MySQL Workbench` `Postman` `Firebase` `Zoho One`
-
-#### ☁️ Platforms & DevOps
-`Vercel` `Netlify` `Render` `GitHub Actions` *(exploring)*  
-`Docker` *(learning)* `Azure ML` *(exploring)*
+#### **[Performance Engineering @ ABM College](#)**
+> *Web Developer & SEO Specialist*
+>
+> * Optimized high-traffic infrastructure driving **30% faster page loads**.
+> * Architected technical SEO strategies using JSON-LD schema and asset compression pipelines.
 
 ---
 
-### 🚀 Highlighted Projects
-- 🧾 [**Fintrack**](https://github.com/Masroor73/Fintrack) — Expense Tracker using **React Native** + Supabase  
-- 📚 [**CPRG306 Assignments**](https://github.com/Masroor73/cprg306-assignments) — Coursework @ SAIT  
-- 🧠 [**QuizWhiz**](https://github.com/Masroor73/quizwhiz) — JS-based Quiz Platform  
-
----
-
-### 📊 GitHub Stats
+### 📊 **GitHub Analytics**
 
 <div align="center">
-
-<!-- Top full-width GitHub streak box with individual outline -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Masroor73&theme=radical&hide_border=false&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" width="800"/>
-
-<!-- Spacer -->
-<div style="margin: 16px 0;"></div>
-
-<!-- Two bottom boxes with outlines and equal dimensions -->
-<table width="800">
-<tr>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Masroor73&count_private=true&show_icons=true&theme=radical&hide_title=true&hide_border=false&border_radius=10" width="390"/>
-</td>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Masroor73&layout=compact&theme=radical&hide_title=true&hide_border=false&border_radius=10" width="390"/>
-</td>
-</tr>
-</table>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Masroor73&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Masroor73&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Masroor73&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" />
 </div>
-
----
-
-### 📫 Let’s Connect!
-- 🌐 [LinkedIn](https://www.linkedin.com/in/mia-ahamed-a07876184/)
-- 💻 [GitHub](https://github.com/Masroor73)
