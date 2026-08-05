@@ -4,9 +4,7 @@
 
 # Mia Masroor Ahamed
 
-**Full-Stack Software Developer & Architect · Distributed Systems & AI Integration · Builder**
-
-*Bias toward systems that are hard to build and harder to break.*
+**Full-Stack Software Developer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mia-ahamed-a07876184/)
 [![Email](https://img.shields.io/badge/Email-wasif4930%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wasif4930@gmail.com)
@@ -17,12 +15,9 @@
 
 ## About
 
-Full-Stack Software Developer and Architect driven by the challenge of architecting systems that solve real-world operational friction. Currently serving as **Software Architect & Tech Lead** on a capstone contract, spearheading the digital transformation of a high-volume Calgary business through a distributed polyglot microservices architecture.
+I'm a full-stack developer working mainly in React and .NET, with Azure and GCP in my stack too. My main project is V.A.K., a workforce management app built for a real restaurant client in Calgary. I led the system design and built the payroll microservice in .NET on Azure Functions, worked across the shared React/React Native codebase with a team of 7, and added a feature where workers photograph ingredients they're discarding and Google Gemini logs the waste automatically. I also did web development and CRM/lead-workflow work at ABM College, and I'm HubSpot Sales Hub certified.
 
-My engineering philosophy centers on **intentional design** — every architectural decision earns its place. Whether it's strict financial compliance engines in **.NET (C#)**, high-performance frontends in **React Native**, or multimodal AI integrations with **Google Gemini**, every line of code serves a purpose.
-
-**Currently building:** [V.A.K Monorepo](https://github.com/Masroor73/vak-monorepo) — a vertical Workforce Management OS for the hospitality industry
-**Architecting:** AegisFlow — a real-time fraud risk orchestration engine integrating with payment processors
+**Currently building:** [Relay](https://github.com/Masroor73/relay) - a webhook reliability gateway (Go, Postgres, React) - in progress, Milestone 1 of 6 complete.
 
 ---
 
@@ -30,69 +25,66 @@ My engineering philosophy centers on **intentional design** — every architectu
 
 | Layer | Technologies |
 |:---|:---|
-| **Languages** | TypeScript, C#, Python, PHP, Go (Golang), SQL (PL/pgSQL, T-SQL), JavaScript (ES6+) |
-| **Frameworks & UI** | .NET 10, Node.js, React, React Native (Expo), Next.js, Laravel, Vue 3, FastAPI |
-| **Cloud & Orchestration** | Docker, Kubernetes (K8s), Pulumi (IaC), Google Cloud Platform, Microsoft Azure, CI/CD (GitHub Actions) |
-| **Architecture & Messaging** | Distributed Systems, Microservices, Modular Monoliths, Event-Driven Architecture, Apache Kafka, RabbitMQ, gRPC, REST, Webhooks |
-| **Databases & State** | PostgreSQL (pgvector), Microsoft SQL Server, Redis, CosmosDB, Supabase |
-| **Observability & AI** | Applied ML, Generative AI Integration, OpenTelemetry (OTel), Semantic Kernel, Prometheus, Grafana |
-| **Ecosystem** | Git, Zod, Orval, OpenAPI (Swagger), Figma, System Design (UML / C4) |
+| **Languages** | TypeScript, C#, SQL (PL/pgSQL, T-SQL), JavaScript (ES6+), HTML5, CSS3 |
+| **Frameworks & UI** | .NET 10, Node.js, React, React Native (Expo), Next.js |
+| **Backend & APIs** | REST APIs, Azure Functions |
+| **Cloud & Orchestration** | Docker, Google Cloud Platform (GCP), Microsoft Azure, CI/CD (GitHub Actions) |
+| **Databases & State** | PostgreSQL, Microsoft SQL Server, Supabase |
+| **Ecosystem** | Git, Zod, Orval, OpenAPI (Swagger), Figma, System Design (UML) |
 
 ---
 
 ## Featured Projects
 
-### [V.A.K — Valence, Axiom, Kairos](https://github.com/Masroor73/vak-monorepo)
-> **Software Architect & Tech Lead · Capstone Contract · Jan 2026 – Present**
+### [Relay - Webhook Reliability Gateway](https://github.com/Masroor73/relay)
+> **Solo Developer · In Progress (Milestone 1 of 6 complete)**
 
-A custom **vertical Workforce Management Operating System** designed to replace generic scheduling solutions for the hospitality industry. Built on a distributed polyglot monorepo, bridging React Native mobile and React web with an isolated .NET compliance backend.
+A self-hostable gateway that sits between a webhook provider (e.g. Stripe) and downstream business logic, guaranteeing every event is durably received, deduplicated, retried on failure, and recoverable if processing fails.
 
-**Architecture highlights:**
-- **Shared TypeScript contract** via Zod validation across the entire Turborepo workspace — eliminates data drift between services
-- **8/44 Compliance Engine** — isolated .NET 8 / Azure Functions microservice for Alberta labour law (overtime) calculations, fully decoupled from UI
-- **GPS-verified geo-fencing** under 50m proximity for time-and-attendance enforcement, addressing buddy-punching
-- **Google Gemini AI** edge functions for food waste analytics
-- **Row Level Security (RLS)** via Supabase (PostgreSQL) for multi-tenant data isolation
-- Leading a cross-functional squad of **7 developers** across mobile, web, and backend streams
+**What's built so far (Milestone 1 - Ingestion + Schema):**
+- Go ingestion service with inline Stripe HMAC-SHA256 signature verification
+- Postgres schema for events, outbox, dead-letter, and orders tables
+- Request size limiting, in-memory rate limiting, explicit DB connection pool limits
+- Structured JSON logging with correlated event IDs across every log line
+- CI pipeline (build + lint) and local dev via Docker Compose
 
-`TypeScript` `C# / .NET 8` `React Native (Expo)` `React` `Supabase` `PostgreSQL` `Azure Functions` `Turborepo` `Zod` `GitHub Actions` `Google Gemini`
+**What's next:** transactional outbox + concurrent idempotency dedup, retry/backoff processor with dead-letter recovery, a React dashboard, and an MCP server for programmatic dead-letter inspection.
 
----
-
-### AegisFlow *(In Active Development)*
-> **Solo Architect & Lead Engineer**
-
-A **real-time fraud risk orchestration engine** designed as a mission-critical middle layer between payment processors and merchant accounts. Event-driven polyglot architecture built for sub-millisecond webhook ingestion and automated risk scoring.
-
-**Architecture highlights:**
-- **.NET 10 (C#)** high-throughput ingestion layer on the hot path; **Go** concurrency-focused risk computation engine — right runtime for the right job
-- **Apache Kafka** with **Protobuf** contracts as the distributed event backbone — strict schema enforcement with backward compatibility
-- **Outbox Pattern** for atomic consistency between database writes and event streaming
-- **Idempotency Keys** + **Dead Letter Queues** — full failure-mode coverage, not just happy paths
-- **OpenTelemetry** end-to-end tracing across C#, Go, and PHP — observability as a first-class architectural concern, not an afterthought
-- **Pact contract testing** to prevent breaking changes across polyglot service boundaries
-- Deployed on **GCP Cloud Run** with Secret Manager
-
-`C# / .NET 10` `Go` `Laravel / PHP` `Vue 3` `Apache Kafka` `Protobuf` `PostgreSQL` `Redis` `GCP` `OpenTelemetry` `Docker`
+`Go` `PostgreSQL` `React` `TypeScript` `Docker` `Google Cloud Run` `GitHub Actions`
 
 ---
 
-### Performance Engineering @ ABM College
-> **Web Developer & Infrastructure Optimizer · Sep 2024 – Present**
+### [V.A.K - Valence, Axiom, Kairos](https://github.com/Masroor73/vak-monorepo)
+> **Software Developer & Technical Lead · Capstone Project · Sept 2025 – June 2026**
 
-- Improved Core Web Vitals and page load speeds by **30%** through custom asset compression, caching pipelines, and script deferrals on high-traffic infrastructure
-- Developed responsive, mobile-first web modules using HTML5, CSS3, and JavaScript to bypass CMS limitations across devices
+A workforce management system built for a real Calgary restaurant client, replacing generic scheduling. Led a team of 7 through the full build, from requirements to a working MVP.
 
-`JavaScript` `HTML5` `CSS3` `Performance Optimization` `SEO` `JSON-LD`
+- Built a payroll microservice in .NET 8 on Azure Functions, exposing an API to handle Alberta's labour rules (the 8/44 rule)
+- Worked across the shared React/React Native codebase connecting the employee mobile app and manager dashboard
+- Set up Row Level Security in Supabase (PostgreSQL) so different restaurant locations' data stayed properly separated
+- Added a feature where workers photograph ingredients they're discarding, and Google Gemini logs the waste via an API call
+
+`TypeScript` `C# / .NET 8` `React Native (Expo)` `React` `Supabase` `PostgreSQL` `Azure Functions` `Google Gemini`
+
+---
+
+### ABM College - Web Development
+> **Web Developer · Sep 2024 – June 2026**
+
+- Improved page load speed by about 30% through image compression and caching
+- Built responsive, mobile-first layouts in HTML, CSS, and JavaScript to work around CMS limitations
+- Connected Zoho CRM to the site's lead forms via API integration, automating what had been manual data entry
+
+`JavaScript` `HTML5` `CSS3` `Performance Optimization`
 
 ---
 
 ## Education
 
 **Southern Alberta Institute of Technology (SAIT)** · Calgary, AB
-Diploma in Software Development · *GRaduated 2026*
+Diploma in Software Development · Graduated June 2026
 
-Focus areas: Advanced OOP & Design Patterns (C# / Java) · Security & DevOps (RLS, CI/CD, threat modeling) · Relational & NoSQL database systems · Capstone: real-client vertical industry solution
+Focus areas: Advanced OOP & Design Patterns (C# / Java) · Security & DevOps (Row Level Security, CI/CD, threat modeling) · Relational & NoSQL database systems · Capstone: real-client vertical industry solution
 
 ---
 
