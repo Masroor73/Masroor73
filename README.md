@@ -64,7 +64,7 @@ A workforce management system built for a real Calgary restaurant client, replac
 - Set up Row Level Security in Supabase (PostgreSQL) so different restaurant locations' data stayed properly separated
 - Added a feature where workers photograph ingredients they're discarding, and Google Gemini logs the waste via an API call
 
-`TypeScript` `C# / .NET 8` `React Native (Expo)` `React` `Supabase` `PostgreSQL` `Azure Functions` `Google Gemini`
+`TypeScript` `C# / .NET 10` `React Native (Expo)` `React` `Supabase` `PostgreSQL` `Azure Functions` `Google Gemini`
 
 ---
 
