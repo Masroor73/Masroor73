@@ -25,7 +25,7 @@ I'm a full-stack developer working mainly in React and .NET, with Azure and GCP 
 
 | Layer | Technologies |
 |:---|:---|
-| **Languages** | TypeScript, C#, SQL (PL/pgSQL, T-SQL), JavaScript (ES6+), HTML5, CSS3 |
+| **Languages** | TypeScript, C#, Go, SQL (PL/pgSQL, T-SQL), JavaScript (ES6+), HTML5, CSS3 |
 | **Frameworks & UI** | .NET 10, Node.js, React, React Native (Expo), Next.js |
 | **Backend & APIs** | REST APIs, Azure Functions |
 | **Cloud & Orchestration** | Docker, Google Cloud Platform (GCP), Microsoft Azure, CI/CD (GitHub Actions) |
