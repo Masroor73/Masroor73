@@ -15,9 +15,20 @@
 
 ## About
 
-I'm a full-stack developer working mainly in React and .NET, with Azure and GCP in my stack too. My main project is V.A.K., a workforce management app built for a real restaurant client in Calgary. I led the system design and built the payroll microservice in .NET on Azure Functions, worked across the shared React/React Native codebase with a team of 7, and added a feature where workers photograph ingredients they're discarding and Google Gemini logs the waste automatically. I also did web development and CRM/lead-workflow work at ABM College, and I'm HubSpot Sales Hub certified.
+I'm a full-stack developer working mainly in React and .NET, with Go, Azure, and 
+GCP in my stack too. My main project is V.A.K., a workforce management app built 
+for a real restaurant client in Calgary. I led the system design and built the 
+payroll microservice in .NET on Azure Functions, worked across the shared 
+React/React Native codebase with a team of 7, and added a feature where workers 
+photograph ingredients they're discarding and Google Gemini logs the waste 
+automatically. I also did web development and CRM/lead-workflow work at ABM 
+College, and I'm HubSpot Sales Hub certified.
 
-**Currently building:** [Relay](https://github.com/Masroor73/relay) - a webhook reliability gateway (Go, Postgres, React) - in progress, Milestone 1 of 6 complete.
+**Shipped:** [Relay](https://github.com/Masroor73/relay) - a webhook reliability 
+gateway (Go, Postgres, React) with idempotent ingestion, a transactional outbox, 
+retry/backoff with dead-letter recovery, and an MCP server for agent-driven DLQ 
+operations. Deployed on Google Cloud Run and verified against production, not just 
+localhost.
 
 ---
 
@@ -37,20 +48,29 @@ I'm a full-stack developer working mainly in React and .NET, with Azure and GCP 
 ## Featured Projects
 
 ### [Relay - Webhook Reliability Gateway](https://github.com/Masroor73/relay)
-> **Solo Developer · In Progress (Milestone 1 of 6 complete)**
+> **Solo Developer · Complete (6 of 6 milestones)**
 
-A self-hostable gateway that sits between a webhook provider (e.g. Stripe) and downstream business logic, guaranteeing every event is durably received, deduplicated, retried on failure, and recoverable if processing fails.
+A self-hostable gateway that sits between a webhook provider (e.g. Stripe) and 
+downstream business logic, guaranteeing every event is durably received, 
+deduplicated, retried on failure, and recoverable if processing fails.
 
-**What's built so far (Milestone 1 - Ingestion + Schema):**
-- Go ingestion service with inline Stripe HMAC-SHA256 signature verification
-- Postgres schema for events, outbox, dead-letter, and orders tables
-- Request size limiting, in-memory rate limiting, explicit DB connection pool limits
-- Structured JSON logging with correlated event IDs across every log line
-- CI pipeline (build + lint) and local dev via Docker Compose
+**Live:** [Dashboard](https://relay-dashboard-202922425380.us-east4.run.app) · 
+[API](https://relay-server-202922425380.us-east4.run.app)
 
-**What's next:** transactional outbox + concurrent idempotency dedup, retry/backoff processor with dead-letter recovery, a React dashboard, and an MCP server for programmatic dead-letter inspection.
+- Go ingestion service with Stripe HMAC-SHA256 signature verification and a 
+  Postgres-backed transactional outbox
+- Idempotency enforced at the database level via a UNIQUE constraint, confirmed 
+  under concurrent load in both testing and production
+- Exponential backoff retry (1s→10m) with dead-letter recovery for exhausted 
+  events, and a React dashboard for live event status
+- MCP server exposing dead-letter inspection and replay as tools, backed by the 
+  same API layer as the dashboard - enabling agent-driven operations on top of 
+  the reliability guarantees
+- Deployed on Google Cloud Run (Postgres via Neon), with CI covering 
+  build/lint/test across all three components plus Trivy container vulnerability 
+  scanning
 
-`Go` `PostgreSQL` `React` `TypeScript` `Docker` `Google Cloud Run` `GitHub Actions`
+`Go` `PostgreSQL` `React` `TypeScript` `Docker` `Google Cloud Run` `GitHub Actions` `MCP`
 
 ---
 
