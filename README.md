@@ -21,7 +21,7 @@ Junior full-stack developer and recent SAIT Software Development graduate (June 
  
 **Awards**
 - 🏆 **Best Project Built with ElevenLabs** - IEEE Southern Alberta Young Professionals Industry Hackathon, 2026 ([Pipe Dreams](https://github.com/Masroor73/pipe-dreams))
-- 🏆 **Community Choice Award** - Cursor Calgary Hackathon, 2026 (LockInAI: product design and lock-out feature concept)
+- 🏆 **Community Choice Award** - Cursor Calgary Hackathon, 2026 ([LockInAI](https://github.com/SaladStik/LockInAI))
 ---
  
 ## Technical Capabilities & Architecture
